@@ -1,0 +1,74 @@
+---
+title: Getting Started
+description: Getting started with Starlight.
+---
+
+Starlight is a full-featured documentation theme built on top of the Astro framework. This guide will help you get started with a new project. See the manual setup instructions to add Starlight to an existing Astro project.
+
+## Quick Start
+### Create a new project
+
+Create a new Astro + Starlight project by running the following command in your terminal:
+
+import { Steps } from '@astrojs/starlight/components';
+
+<Steps>
+
+1. Import the component into your MDX file:
+
+   ```js
+   import { Steps } from '@astrojs/starlight/components';
+   ```
+
+2. Wrap `<Steps>` around your ordered list items.
+
+</Steps>
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+<Tabs>
+  <TabItem label="npm">npm create astro@latest -- --template starlight</TabItem>
+  <TabItem label="pnpm">Io, Europa, Ganymede</TabItem>
+  <TabItem label="yarn">Callisto, Amalthea, Himalia</TabItem>
+</Tabs>
+
+```npm title="npm" 
+npm create astro@latest -- --template starlight
+```
+```pnpm title="pnpm"
+pnpm create astro --template starlight
+```
+```yarn title="yarn"
+yarn create astro --template starlight
+```
+This will create a new project directory with all the necessary files and configurations for your site.
+
+### Start the development server
+When working locally, Astro’s development server lets you preview your work and automatically refreshes your browser when you make changes.
+
+Inside your project directory, run the following command to start the development server:
+
+```npm title="npm" 
+npm run dev
+```
+```pnpm title="pnpm"
+pnpm dev
+```
+```yarn title="yarn"
+yarn dev
+```
+This will log a message to your terminal with the URL of your local preview. Open this URL to start browsing your site.
+
+### Add content
+Starlight is ready for you to add new content, or bring your existing files!
+
+Add new pages to your site by creating Markdown files in the src/content/docs/ directory.
+
+Read more about file-based routing and support for MDX and Markdoc files in the “Pages” guide.
+
+### Next steps
+Configure: Learn about common options in “Customizing Starlight”.
+Navigate: Set up your sidebar with the “Sidebar Navigation” guide.
+Components: Discover built-in cards, tabs, and more in the “Components” guide.
+Deploy: Publish your work with the “Deploy your site” guide in the Astro docs.
+Updating Starlight
