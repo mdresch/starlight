@@ -15,13 +15,17 @@ export default defineConfig({
 					label: 'Getting Started',
 					items: [
 						{ label: 'Getting Started', slug: 'start-here/getting-started' },
+						{ label: 'Manual Setup', slug: 'start-here/manual-setup'},
+						{ label: 'Environmental Impact', slug: 'start-here/environmental-impact'},
 					],
 				},
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Pages', slug: 'guides/pages' },
+						{ label: 'Authoring Content in Markdown', slug: 'guides/markdown' },
+						
 					],
 				},
 				{
